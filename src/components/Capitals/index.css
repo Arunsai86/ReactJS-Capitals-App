@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+}
+.bg-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  padding: 20px;
+}
+.searchBox {
+  width: 170px;
+  height: 35px;
+  background-color: transparent;
+  padding: 5px;
+  margin-right: 5px;
+}
+.result {
+  margin-top: 15px;
+}
+.checkBoxContainer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
